@@ -15,6 +15,7 @@
 		AAA09E782970CEF400556369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA09E762970CEF400556369 /* LaunchScreen.storyboard */; };
 		AAA09E812970D02A00556369 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA09E802970D02A00556369 /* Post.swift */; };
 		AAA09E842970D0A700556369 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA09E832970D0A700556369 /* APIHandler.swift */; };
+		AAA09E872970D3C300556369 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA09E862970D3C300556369 /* PostsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AAA09E792970CEF400556369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAA09E802970D02A00556369 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		AAA09E832970D0A700556369 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		AAA09E862970D3C300556369 /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		AAA09E6A2970CEF300556369 /* mvvm_swift */ = {
 			isa = PBXGroup;
 			children = (
+				AAA09E852970D3B300556369 /* ViewModels */,
 				AAA09E822970D09300556369 /* API Helper */,
 				AAA09E7F2970D01B00556369 /* Models */,
 				AAA09E6B2970CEF300556369 /* AppDelegate.swift */,
@@ -87,6 +90,14 @@
 				AAA09E832970D0A700556369 /* APIHandler.swift */,
 			);
 			path = "API Helper";
+			sourceTree = "<group>";
+		};
+		AAA09E852970D3B300556369 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AAA09E862970D3C300556369 /* PostsViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 			files = (
 				AAA09E702970CEF300556369 /* ViewController.swift in Sources */,
 				AAA09E6C2970CEF300556369 /* AppDelegate.swift in Sources */,
+				AAA09E872970D3C300556369 /* PostsViewModel.swift in Sources */,
 				AAA09E842970D0A700556369 /* APIHandler.swift in Sources */,
 				AAA09E6E2970CEF300556369 /* SceneDelegate.swift in Sources */,
 				AAA09E812970D02A00556369 /* Post.swift in Sources */,
