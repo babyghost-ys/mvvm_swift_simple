@@ -10,11 +10,14 @@ import Foundation
 class PostsViewModel {
     
     private var apiHandler = APIHandler()
-    private var postsData:[Post] = []
+    var postsData:[Post] = []
+    
+    var bindViewModelToController : (() -> ()) = {}
     
     func callApiHandler() {
         self.apiHandler.getDataFromAPI { posts in
             self.postsData = posts
+            self.bindViewModelToController()
         }
     }
 }
